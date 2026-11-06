@@ -11,6 +11,7 @@ public class Main {
         robot.setEnergia(120); // No se acepta: fuera del intervalo.
         System.out.println("Tras intento inválido: " + robot.getEnergia());
         robot.setEnergia(50);
+        System.out.println("holahola");
         
     }
 }
